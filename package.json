@@ -1,0 +1,11 @@
+{
+  "name": "personal-flight",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "dev": "npm run dev --workspace=@personal-flight/web",
+    "build": "npm run build --workspace=@personal-flight/web",
+    "typecheck": "npm run typecheck --workspace=@personal-flight/web"
+  }
+}
